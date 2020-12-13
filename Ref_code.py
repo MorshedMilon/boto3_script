@@ -25,4 +25,6 @@ iam_con_client=aws_mag_con_root.client(service_name='iam',region_name="us-east-2
 
 for each  in iam_con_client.list_users()['Users']:
        print(each['UserName'])
+      
+      ############################
        
